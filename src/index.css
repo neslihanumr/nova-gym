@@ -1,0 +1,122 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home-background {
+    background-image: url('./images/home/hero-1.webp');
+    background-size: cover;
+    background-position: top;
+  }
+
+  .text-with-lines {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-with-lines::before,
+  .text-with-lines::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #C0EA18;
+  }
+  .text-with-lines::before {
+    margin-right: 1rem;
+  }
+  .text-with-lines::after {
+    margin-left: 1rem;
+  }
+
+  .read-more{
+    cursor: pointer;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  .animate-slide-down {
+    animation: slideDown 1.5s ease-in-out forwards;
+  }
+
+  img.transition-transform {
+    transition: transform 0.3s ease;
+  }
+  
+  img.hover:scale-105:hover {
+    transform: scale(1.05);
+  }
+
+  /* Blog Cards */
+  
+  .highlight-large {
+    font-size: 2.7rem; 
+    color: #fff;
+    text-align: center; 
+    margin-top: 120px; 
+  
+  }
+   
+  .content h3 {
+    color: #98F224;
+    font-size: 1.75rem;
+    margin-top: 4rem; 
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    margin-bottom: 1rem;
+    text-align: justify;
+    color: #D8D8D8;
+  }
+  .content ul {
+    padding-left: 20px; 
+    list-style-type: disc; 
+  }
+  
+  .content ul li {
+    color: #D8D8D8; 
+    margin-bottom: 0.5rem; 
+  }
+
+  .content ul li strong {
+    color: #fcfcfc; 
+  }
+
+  .content p strong{
+    color: #fcfcfc;
+  }
+  
+  .flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+
+
