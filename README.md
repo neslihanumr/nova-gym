@@ -40,3 +40,5 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+![image alt](https://github.com/neslihanumr/nova-gym/blob/c275cb83af3f2503803d72b722e1ca6826c1adef/nova-gym-home.png)
